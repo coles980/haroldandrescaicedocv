@@ -138,4 +138,32 @@ body {
 }
 
 .card h2 {
-  margin
+  margin : 0 0 1rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;          /* espacio entre chips */
+}
+
+.chips span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.6rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid var(--border-subtle);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 1rem 2rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
